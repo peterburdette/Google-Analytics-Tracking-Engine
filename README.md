@@ -90,20 +90,20 @@ Give this variable your Google Analytics Tracking ID in the Value field and **SA
 After these configurations have been setup in Google Tag Manager you are ready to add your redirects to the `redirects.txt` file.
 
 ### Redirects
-To add a redirect open up the `redirects.txt` file. The first string `linkedin` is telling the engine what path it needs to look for in the URL. Immediately following is a separator `=>`.
+To add a redirect open up the `redirects.txt` file. The text `linkedin` is telling the engine what path it needs to look for in the URL. Immediately following is the separator `=>` which shows the engine where it needs to direct the user. New redirects can be added on a new line. There are no limits to the number of redirects that can be added to this file.
 
-```html
+<pre>
 // Example Redirect
 linkedin => https://example.com
-```
+</pre>
 
 ### Failsafe
 In the off-chance that one of the redirects is not working it is good to have a page that the user can be directed to. You can add in your failsafe page by modifying the `window.location.href` location that comes immediately after the loop.
 
-<pre>
+```html
 // Redirects to safe page if no match is found
 window.location.href = 'https://example.com';
-</pre>
+```
 
 ## Browser Support
 
