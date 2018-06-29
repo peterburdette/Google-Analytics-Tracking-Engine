@@ -69,6 +69,7 @@ Additionally, paste this code immediately after the opening `<body>` tag. Make s
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 ```
+**NOTE:** For more information about installing the Google Tag Manager snippet, check out their [Quick Start Guide](https://developers.google.com/tag-manager/quickstart).
 
 #### Create Tags/Triggers/Variables
 1. **Create a variable** &mdash; You will need to first create a User-Defined Variable. Go to the Variables page of your Google Tag Manager and in the User-Defined Variables section create a new variable named `Tracking ID`.
@@ -76,8 +77,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 Give this variable your Google Analytics Tracking ID in the Value field and **SAVE**.
 <br /><br />
 ![Variable Configuration Image](assets/variable-configuration.jpg?raw=true "Optional Title")
-<br /><br />
-**NOTE:** For more information about installing the Google Tag Manager snippet, check out their [Quick Start Guide](https://developers.google.com/tag-manager/quickstart).
 <br /><br />
 2. **Create a tag** &mdash; You will need to go to the *Tags* page in Google Tag Manager and click the **NEW** button. Fill in the fields so they resemble the screenshot below. Click **SAVE** when finished.
 <br /><br />
@@ -90,7 +89,7 @@ Give this variable your Google Analytics Tracking ID in the Value field and **SA
 After these configurations have been setup in Google Tag Manager you are ready to add your redirects to the `redirects.txt` file.
 
 ### Redirects
-To add a redirect open up the `redirects.txt` file. The text `linkedin` is telling the engine what path it needs to look for in the URL. Immediately following is the separator `=>` which shows the engine where it needs to direct the user. New redirects can be added on a new line. There are no limits to the number of redirects that can be added to this file.
+To add a redirect open the `redirects.txt` file. The text `linkedin` is telling the engine what path it needs to look for in the URL. Immediately following is the separator `=>` which shows the engine where the assigned path should direct the user. New redirects can be added on a new line and there are no limits to the number of redirects that can be added to this file.
 
 <pre>
 // Example Redirect
