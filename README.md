@@ -1,5 +1,5 @@
 # Google-Analytics-Tracking-Engine
-The Google Analytics Engine makes it easy to collect event data where traditional tracking methods may not have been possible. This tracking engine utilizes Google Tag Manager and Google Analytics to capture events and is run on the client side. All events can be seen in Google Analytics **(Behavior > Events > Top Events)**. 
+The Google Analytics Tracking Engine makes it easy to collect event data where traditional tracking methods may not have been possible. This tracking engine utilizes Google Tag Manager and Google Analytics to capture events and is run on the client side. All events can be seen in Google Analytics **(Behavior > Events > Top Events)**. 
 
 ## Getting Started
 ### Installation
