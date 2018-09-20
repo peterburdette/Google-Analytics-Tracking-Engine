@@ -1,9 +1,9 @@
-# Redirects-Tracking-Engine
-The Redirects Tracking Engine makes it easy to collect event data where traditional tracking methods may not have been possible. This tracking engine utilizes Google Tag Manager and Google Analytics to capture events and is run on the client side. All events can be seen in Google Analytics **(Behavior > Events > Top Events)**. 
+# Google-Analytics-Tracking-Engine
+The Google Analytics Engine makes it easy to collect event data where traditional tracking methods may not have been possible. This tracking engine utilizes Google Tag Manager and Google Analytics to capture events and is run on the client side. All events can be seen in Google Analytics **(Behavior > Events > Top Events)**. 
 
 ## Getting Started
 ### Installation
-Add the latest JQuery and Redirects Tracking Engine scripts to the header of your site.
+Add the latest JQuery and Google Analytics Tracking Engine scripts to the header of your site.
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -110,6 +110,6 @@ window.location.href = 'https://example.com';
 
 ## License
 
-The source code can be found on [github](https://github.com/peterburdette/Redirects-Tracking-Engine) and is licensed under the [MIT](http://opensource.org/licenses/mit-license.php) license.
+The source code can be found on [github](https://github.com/peterburdette/Google-Analytics-Tracking-Engine) and is licensed under the [MIT](http://opensource.org/licenses/mit-license.php) license.
 
 Developed by [Peter Burdette](https://www.linkedin.com/in/peter-burdette-76976552)
