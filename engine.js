@@ -1,3 +1,10 @@
+/*
+ @name		Google Analytics Tracking Engine
+ @author	Peter Burdette
+ @version	1.0
+ @license	Released under the MIT license.
+*/
+
 // Fetches redirects.txt and stores information in the variable data
 $.get('redirects.txt', function(data) {
 	// Fetches the parameters of the query string and stores the path in urlParams
